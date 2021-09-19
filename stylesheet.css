@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section {
+    border: solid;
+    color: black;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+section.medium {
+    background-color: moccasin;
+    border-color: darkorange;
+}
+
+section.important {
+    background-color: rgb(231, 94, 94);
+    border-color: darkred;
+}
