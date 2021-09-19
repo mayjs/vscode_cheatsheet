@@ -13,6 +13,16 @@
 
 </section>
 
+<section class="medium">
+
+# Quick Copying and Deleting
+| Binding   | Effect           |
+------------|-------------------
+| C-C       | Copy entire line if nothing is selected |
+| C-X       | Cut entire line if nothing is selected  |
+| C-S-K     | Delete all lines that contain part of the selection |
+
+</section>
 </div>
 
 <script>
