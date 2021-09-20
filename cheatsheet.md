@@ -12,7 +12,7 @@
 | C-T               | Fuzzy goto symbol in workspace |
 | C-S-O             | Fuzzy goto symbol in file |
 | C-F               | Find selection or word |
-| M-Left; M-Right   | Go back or forward |
+| A-Left; A-Right   | Go back or forward |
 
 </section>
 
@@ -22,8 +22,8 @@
 # Quick selection
 | Binding   | Effect           |
 ------------|-------------------
-| S-M-Right | Expand selection |
-| S-M-Left  | Shrink selection |
+| S-A-Right | Expand selection |
+| S-A-Left  | Shrink selection |
 | C-L       | Select full line; expand to next line |
 | C-D       | Select next occurance of word under cursor |
 
@@ -80,7 +80,7 @@
 # Window Management
 | Binding   | Effect           |
 ------------|-------------------
-| C-M-Arrow | Move editor to group in arrow direction |
+| C-A-Arrow | Move editor to group in arrow direction |
 | C-K Arrow | Move editor in arrow direction |
 | C-^       | Split editor vertical |
 | C-W       | Close editor |
