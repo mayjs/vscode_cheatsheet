@@ -4,12 +4,38 @@
 
 <section class="important">
 
+# Navigation
+| Binding           | Effect           |
+--------------------|-------------------
+| C-P               | Fuzzy open file |
+| C-Tab             | Goto previous file |
+| C-T               | Fuzzy goto symbol in workspace |
+| C-S-O             | Fuzzy goto symbol in file |
+| C-F               | Find selection or word |
+| M-Left; M-Right   | Go back or forward |
+
+</section>
+
+
+<section class="important">
+
 # Quick selection
 | Binding   | Effect           |
 ------------|-------------------
 | S-M-Right | Expand selection |
 | S-M-Left  | Shrink selection |
 | C-L       | Select full line; expand to next line |
+| C-D       | Select next occurance of word under cursor |
+
+</section>
+<section class="important">
+
+# Window Navigation
+| Binding       | Effect           |
+----------------|-------------------
+| C-B           | Toggle Side Bar |
+| C-0           | Focus Side Bar |
+| C-K C-Arrow   | Focus editor group in arrow direction |
 
 </section>
 
@@ -24,6 +50,18 @@
 
 </section>
 
+<section class="medium">
+
+# Integrated Terminal / Panel
+| Binding   | Effect           |
+------------|-------------------
+| C-Ö       | Toggle Terminal |
+| <span class="custom">C-S-J</span>     | <span class="custom">Toggle maximized Panel</span> |
+| C-S-Ö     | New Terminal |
+
+</section>
+
+
 <section class="low">
 
 # Code Folding
@@ -33,6 +71,19 @@
 | C-K C-8   | Close all folds |
 | C-K C-J   | Open all folds |
 | C-K C-L   | Toggle fold |
+
+</section>
+
+
+<section class="low">
+
+# Window Management
+| Binding   | Effect           |
+------------|-------------------
+| C-M-Arrow | Move editor to group in arrow direction |
+| C-K Arrow | Move editor in arrow direction |
+| C-^       | Split editor vertical |
+| C-W       | Close editor |
 
 </section>
 
