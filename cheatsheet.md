@@ -23,6 +23,19 @@
 | C-S-K     | Delete all lines that contain part of the selection |
 
 </section>
+
+<section class="low">
+
+# Code Folding
+| Binding   | Effect           |
+------------|-------------------
+| C-K C--   | Close all folds except the selected block |
+| C-K C-8   | Close all folds |
+| C-K C-J   | Open all folds |
+| C-K C-L   | Toggle fold |
+
+</section>
+
 </div>
 
 <script>

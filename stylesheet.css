@@ -9,14 +9,23 @@ section {
     margin: 5px;
     padding: 5px;
     border-radius: 5px;
+    max-width: 350px;
+}
+
+section.low {
+    background-color: rgb(167, 231, 167);
+    border-color: green;
+    order: 3;
 }
 
 section.medium {
     background-color: moccasin;
     border-color: darkorange;
+    order: 2;
 }
 
 section.important {
     background-color: rgb(231, 94, 94);
     border-color: darkred;
+    order: 1;
 }
